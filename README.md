@@ -1,3 +1,7 @@
+# About the App
+
+This is a Dictionary App that provides meanings of words existing in the English Dictionary
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

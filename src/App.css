@@ -1,18 +1,16 @@
 .App {
   text-align: center;
+  padding: 5vw;
 }
 
+/* Ensure the logo resizes well on smaller screens */
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 30vmin;
+  max-width: 100%;
+  max-height: 150px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
+/* Responsive Header */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -20,19 +18,34 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(8px + 2vmin);
   color: white;
+  padding: 5vw;
+  box-sizing: border-box;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Responsive Font Sizes and Layout */
+@media (max-width: 768px) {
+  .App-header {
+    font-size: calc(9px + 1.5vmin);
+    padding: 4vw;
   }
-  to {
-    transform: rotate(360deg);
+
+  .App-logo {
+    height: 25vmin;
+    max-height: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .App-header {
+    font-size: calc(10px + 1vmin);
+    padding: 3vw;
+  }
+
+  .App-logo {
+    height: 20vmin;
+    max-height: 100px;
   }
 }

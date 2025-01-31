@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/WordNest-Dictionary/static/css/main.6eb09db0.css",
+    "main.css": "/WordNest-Dictionary/static/css/main.c783a66e.css",
     "main.js": "/WordNest-Dictionary/static/js/main.1f02244a.js",
     "static/js/453.14f435a1.chunk.js": "/WordNest-Dictionary/static/js/453.14f435a1.chunk.js",
     "index.html": "/WordNest-Dictionary/index.html",
-    "main.6eb09db0.css.map": "/WordNest-Dictionary/static/css/main.6eb09db0.css.map",
+    "main.c783a66e.css.map": "/WordNest-Dictionary/static/css/main.c783a66e.css.map",
     "main.1f02244a.js.map": "/WordNest-Dictionary/static/js/main.1f02244a.js.map",
     "453.14f435a1.chunk.js.map": "/WordNest-Dictionary/static/js/453.14f435a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6eb09db0.css",
+    "static/css/main.c783a66e.css",
     "static/js/main.1f02244a.js"
   ]
 }
